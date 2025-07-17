@@ -14,11 +14,11 @@ export class ClientService {
 
     getClient(subDomain): Observable<ClientModel> {
         //Uncomment below line when you setup your client in db and ready to test against it
-        //return this.http.get<ClientModel>(`https://xxx.execute-api.us-east-2.amazonaws.com/beta/client/${subDomain}`);
+        return this.http.get<ClientModel>(`https://5butdb7iqk.execute-api.us-east-2.amazonaws.com/beta/client/${subDomain}`);
         return this.mockClient();
     }
     getAllClients(): Observable<ClientModel[]> {
-        //return this.http.get<ClientModel[]>(`https://xxx.execute-api.us-east-2.amazonaws.com/beta/client`);
+        return this.http.get<ClientModel[]>(`https://5butdb7iqk.execute-api.us-east-2.amazonaws.com/beta/client`);
         return this.mockClients();
     }
 

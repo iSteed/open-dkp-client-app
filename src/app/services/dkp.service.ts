@@ -13,48 +13,47 @@ Amplify.configure({
     API: {
         endpoints: [{
                 name: "CharacterAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://9jvw5aqaq4.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "PoolAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://wht7m3j7c2.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "ItemAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://0uhdspaq3e.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "AdjustmentAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://wse79wb144.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "RaidAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://zd8n0skfd0.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "DkpAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://kxi8t70bpj.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "AdminAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://5butdb7iqk.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             },
             {
                 name: "AuditAPIs",
-                endpoint: "https://xxxx.execute-api.us-east-2.amazonaws.com",
+                endpoint: "https://23xiaemyoj.execute-api.us-east-2.amazonaws.com",
                 region: "us-east-2"
             }
         ]
     }
 });
-
 @Injectable({
     providedIn: 'root',
 })
