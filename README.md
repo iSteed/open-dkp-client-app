@@ -1,3 +1,4 @@
+
 # OpenDKP - AWS AngularJS client
 
 OpenDKP was developed over the course of several months as a passion project of mine. My primary goal was exposure to Amazon Web Services, as many components as I could. It started off as a simple AngularJS ap hosted in an [S3](https://aws.amazon.com/s3/) bucket, then grew to becoming a full fledged application with middle tier and backend provided by [API Gateway](https://aws.amazon.com/api-gateway/) and [Lambdas](https://aws.amazon.com/lambda/). 
